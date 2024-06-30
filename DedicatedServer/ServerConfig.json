@@ -1,0 +1,11 @@
+{
+    "gameId": "ZKBH6fLBggW5rgzf81LiuU7UD5EP",
+    "world": 0,
+    "worldName": "Caconia",
+    "worldSeed": 0,
+    "maxNumberPlayers": 24,
+    "maxNumberPacketsSentPerFrame": 1,
+    "networkSendRate": 20,
+    "worldMode": 0,
+    "seasonOverride": 6
+}
