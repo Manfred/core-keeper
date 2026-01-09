@@ -5,7 +5,7 @@ run:
 
 image:
 	export TAG="$$(git rev-parse --short HEAD)"; \
-	docker build -t "mast/core-keeper:$${TAG}" .
+	docker build --platform linux/amd64 -t "mast/core-keeper:$${TAG}" .
 
 push: image
 	export TAG="$$(git rev-parse --short HEAD)"; \
